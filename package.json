@@ -3,7 +3,18 @@
   "version": "0.0.1",
   "description": "Minecraft Textures",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "fetch_jar": "node lib/fetch_jar",
+    "fetch_sprite_image": "node lib/fetch_sprite_image",
+    "fetch_sprite_config": "node lib/fetch_sprite_config",
+    "convert_config": "node lib/convert_config",
+    "enhance_config": "node lib/enhance_config",
+    "extract_jar": "node lib/extract_jar",
+    "aggregate_tags": "node lib/aggregate_tags",
+    "compute_positions": "node lib/compute_positions",
+    "generate_images": "node lib/generate_images",
+    "generate": "npm-run-all fetch_jar fetch_sprite_image fetch_sprite_config convert_config enhance_config extract_jar aggregate_tags compute_positions generate_images"
+  },
   "keywords": [
     "minecraft",
     "mc",
@@ -17,5 +28,7 @@
     "cheerio": "^1.0.0-rc.5",
     "sharp": "^0.27.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }
