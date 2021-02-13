@@ -4,7 +4,11 @@
   "description": "Minecraft Textures",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["minecraft", "mc", "textures"],
+  "keywords": [
+    "minecraft",
+    "mc",
+    "textures"
+  ],
   "author": "Emilio Barradas",
   "license": "MIT",
   "dependencies": {
