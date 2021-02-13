@@ -1,0 +1,8 @@
+node_modules
+
+data/external
+data/images
+data/tags
+data/sprite-config-enhanced.json
+data/sprite-config.json
+data/tags.json

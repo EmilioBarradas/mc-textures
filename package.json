@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-assets",
+  "version": "0.0.1",
+  "description": "Minecraft Assets",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Emilio Barradas",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.2",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "sharp": "^0.27.1"
+  },
+  "devDependencies": {}
+}
