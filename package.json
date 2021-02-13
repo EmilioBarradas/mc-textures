@@ -1,10 +1,10 @@
 {
-  "name": "minecraft-assets",
+  "name": "mc-textures",
   "version": "0.0.1",
-  "description": "Minecraft Assets",
+  "description": "Minecraft Textures",
   "main": "index.js",
   "scripts": {},
-  "keywords": [],
+  "keywords": ["minecraft", "mc", "textures"],
   "author": "Emilio Barradas",
   "license": "MIT",
   "dependencies": {
