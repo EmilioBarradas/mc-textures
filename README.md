@@ -6,6 +6,12 @@ Generate item and block textures from the [official Minecraft Wiki](https://mine
 
 ---
 
+First, you must clone this directory.
+
+```
+git clone https://github.com/EmilioBarradas/mc-textures.git
+```
+
 **Generate Textures**
 
 ```
