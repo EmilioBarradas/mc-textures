@@ -7,12 +7,15 @@
     "fetch_jar": "node lib/fetch_jar",
     "fetch_sprite_image": "node lib/fetch_sprite_image",
     "fetch_sprite_config": "node lib/fetch_sprite_config",
+    "fetch_materials": "node lib/fetch_materials",
     "convert_config": "node lib/convert_config",
-    "enhance_config": "node lib/enhance_config",
     "aggregate_tags": "node lib/aggregate_tags",
     "compute_positions": "node lib/compute_positions",
     "generate_images": "node lib/generate_images",
-    "generate": "npm-run-all fetch_jar fetch_sprite_image fetch_sprite_config convert_config enhance_config aggregate_tags compute_positions generate_images"
+    "generate_images_spigot": "node lib/generate_images_spigot",
+    "setup": "npm-run-all fetch_jar fetch_sprite_image fetch_sprite_config convert_config compute_positions aggregate_tags",
+    "generate": "npm-run-all setup generate_images",
+    "generate_spigot": "npm-run-all setup fetch_materials generate_images_spigot"
   },
   "keywords": [
     "minecraft",

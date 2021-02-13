@@ -1,5 +1,6 @@
 {
     "mojang_manifest": "https://launchermeta.mojang.com/mc/game/version_manifest.json",
     "sprite_picture": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest",
-    "sprite_config": "https://minecraft.gamepedia.com/Module:InvSprite"
+    "sprite_config": "https://minecraft.gamepedia.com/Module:InvSprite",
+    "spigot_materials": "https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html"
 }
