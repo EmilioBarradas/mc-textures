@@ -9,11 +9,10 @@
     "fetch_sprite_config": "node lib/fetch_sprite_config",
     "convert_config": "node lib/convert_config",
     "enhance_config": "node lib/enhance_config",
-    "extract_jar": "node lib/extract_jar",
     "aggregate_tags": "node lib/aggregate_tags",
     "compute_positions": "node lib/compute_positions",
     "generate_images": "node lib/generate_images",
-    "generate": "npm-run-all fetch_jar fetch_sprite_image fetch_sprite_config convert_config enhance_config extract_jar aggregate_tags compute_positions generate_images"
+    "generate": "npm-run-all fetch_jar fetch_sprite_image fetch_sprite_config convert_config enhance_config aggregate_tags compute_positions generate_images"
   },
   "keywords": [
     "minecraft",
