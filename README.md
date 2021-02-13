@@ -6,20 +6,22 @@ Generate item and block textures from the [official Minecraft Wiki](https://mine
 
 First, you must clone and enter this directory.
 
-```
+```console
 git clone https://github.com/EmilioBarradas/mc-textures.git
 cd mc-textures
 ```
 
 Next, install the required npm packages.
 
-```
+```console
 npm i
 ```
 
-**Generate Textures**
+### Generate Textures
 
-```
+The generated images will be placed in the data/images directory.
+
+```console
 npm run generate
 ```
 
