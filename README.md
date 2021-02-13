@@ -35,7 +35,7 @@ This will adhere the image names to spigot [Material](https://hub.spigotmc.org/j
 npm run generate_spigot
 ```
 
-### Missing Textures
+## Missing Textures
 
 If the textures you are looking for are not generated, take a look at the ignored files, [here](/data/ignored_tags.json) for minecraft textures, and [here](/data/ignored_materials.json) for spigot textures. These files contain the item names of the textures which I have not imported into the project.
 
