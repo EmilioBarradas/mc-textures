@@ -3,7 +3,10 @@ node_modules
 data/external
 data/images
 data/tags
+data/materials.json
 data/positions.json
-data/sprite-config-enhanced.json
 data/sprite-config.json
 data/tags.json
+
+test/tags_not_found.json
+test/materials_not_found.json
