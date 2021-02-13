@@ -11,6 +11,12 @@ git clone https://github.com/EmilioBarradas/mc-textures.git
 cd mc-textures
 ```
 
+Next, install the required npm packages.
+
+```
+npm i
+```
+
 **Generate Textures**
 
 ```
