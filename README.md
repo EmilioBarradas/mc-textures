@@ -4,8 +4,6 @@ Generate item and block textures from the [official Minecraft Wiki](https://mine
 
 ## Usage
 
----
-
 First, you must clone this directory.
 
 ```
